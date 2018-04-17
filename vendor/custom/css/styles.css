@@ -26,3 +26,49 @@ header .content{
 header .container{
     height: 100%;
 }
+.triangle{
+    position: relative;
+    background-color: #f0f0f0;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: -100%;
+}
+.triangle .container{
+    padding: 60px 0;
+    z-index: 3;
+}
+.triangle .before{
+    position: absolute;
+    top: 0;
+    width: 0; 
+    height: 0; 
+    z-index: 2;
+}
+.triangle .after{
+    position: absolute;
+    width: 0; 
+    height: 0; 
+    bottom: 0;
+    z-index: 1;
+}
+.triangle .img-icon{
+    padding: 25px;
+}
+.triangle .img-rounded{
+    background-color: #fff;
+    border-radius: 50%;
+}
+.triangle h5{
+    color: #fff;
+    margin-top: 20px;
+}
+.categorias:before{
+    content: "";
+    position: absolute;
+    top: 100px;
+    left: -70px;
+    height: 70px;
+    width: 70px;
+    background-image: url(../img/hover-me.png);
+    background-size: cover;
+}
