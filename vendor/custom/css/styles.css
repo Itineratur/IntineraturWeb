@@ -16,10 +16,6 @@ body {
         padding-top: 56px;
     }
 }
-header{
-    height: 600px;
-    background-image: url(http://placehold.it/1920x600&text=ImagenPerrona);
-}
 .back{
     background-position: center;
     background-size: cover;

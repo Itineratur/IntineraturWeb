@@ -26,7 +26,6 @@
 
     </style>
     <link href="vendor/custom/css/styles.css" rel="stylesheet">
-
   </head>
 
   <body>
@@ -59,17 +58,28 @@
           </ul>
 
     </nav>
+          
+
 
       
-
-    <header class="back">
-        <div class="container d-flex align-items-center">
+  <section class="fullsize-video-bg">
+	<div class="inner">
             <div class="content">
+                <div class="row">
+                <div class="d-flex flex-column justify-content-center">
                 <h1 class="text-uppercase robotoSlab font-weight-bold text-white">Itinerantur</h1>
-                <h5 class="text-justify font-weight-normal text-white">En latín significa viajar, en tu idioma experiencias inolvidables. Es una aplicación móvil que sirve como guía turista por medio de una interfaz intuitiva, adaptable, integra y en distintos idiomas que ayuda a los turistas a llegar a los lugares que siempre quiso visitar, sin pasar por el singular “¿A dónde quieres ir?”</h5>
+                <h5 class="text-justify font-weight-normal text-white">En latín significa viajar, en tu idioma experiencias inolvidables. Es una aplicación móvil que sirve como guía turista por medio de una interfaz intuitiva, adaptable, integra y en distintos idiomas que ayuda a los turistas a llegar a los lugares que siempre quiso visitar, sin pasar por el singular </h5><h3>“¿A dónde quieres ir?”</h3>
             </div>
+                    </div>
         </div>
-    </header>
+	</div>
+	<div id="video-viewport">
+		<video autoplay muted loop>
+			<source src="vendor/custom/video/Sea.mp4" type="video/mp4" />
+		</video>
+	</div>
+</section>
+          
     
     <section class="triangle">
         <div class="container">
@@ -97,12 +107,11 @@
     </section>
           
     <footer>
-<div class="container">
-    
+<div class="container form">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h3 class="section-heading">Contacto</h3>
-                    <h4 class="section-subheading text-muted" style="color:white;">¿Quejas? ¿Sugerencias? Mandanos un correo, con gusto te atendemos</h4> </div>
+                    <h1 class="section-heading">Contacto</h1>
+                    <h4 class="section-subheading">¿Quejas? ¿Sugerencias? Mandanos un correo, con gusto te atendemos</h4> </div>
             </div>
             <div class="row">
                 <div class="col-lg-4">
@@ -144,8 +153,11 @@
       
     </footer>
           
+
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-          
+    <script src="vendor/custom/js/index.js"></script>
+    <script src="vendor/custom/js/contact_me.js"></script>
+   
   </body>
 </html>
