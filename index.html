@@ -26,7 +26,6 @@
 
     </style>
     <link href="vendor/custom/css/styles.css" rel="stylesheet">
-
   </head>
 
   <body>
@@ -40,9 +39,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#">Inicio
-                <span class="sr-only">(current)</span>
-              </a>
+              <a class="nav-link" href="#">Inicio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#">Aplicación móvil</a>
@@ -57,25 +54,38 @@
               <a class="nav-link" href="#">Contacto</a>
             </li>
           </ul>
-
+          </div>
+        </div>
     </nav>
+          
+
 
       
-
-    <header class="back">
-        <div class="container d-flex align-items-center">
+  <section class="fullsize-video-bg">
+	<div class="inner">
             <div class="content">
+                <div class="row">
+                <div class="d-flex flex-column justify-content-center">
                 <h1 class="text-uppercase robotoSlab font-weight-bold text-white">Itinerantur</h1>
-                <h5 class="text-justify font-weight-normal text-white">En latín significa viajar, en tu idioma experiencias inolvidables. Es una aplicación móvil que sirve como guía turista por medio de una interfaz intuitiva, adaptable, integra y en distintos idiomas que ayuda a los turistas a llegar a los lugares que siempre quiso visitar, sin pasar por el singular “¿A dónde quieres ir?”</h5>
+                <h5 class="text-justify font-weight-normal text-white">En latín significa viajar, en tu idioma experiencias inolvidables. Es una aplicación móvil que sirve como guía turista por medio de una interfaz intuitiva, adaptable, integra y en distintos idiomas que ayuda a los turistas a llegar a los lugares que siempre quiso visitar, sin pasar por el singular </h5><h3>“¿A dónde quieres ir?”</h3>
             </div>
+                    </div>
         </div>
-    </header>
+	</div>
+	<div id="video-viewport">
+		<video autoplay muted loop>
+			<source src="vendor/custom/video/Sea.mp4" type="video/mp4" />
+		</video>
+	</div>
+</section>
+          
     
     <section class="triangle">
-        <div class="container">
+       <div class="before"></div>
+        <div class="container position-relative">
             <div class="row">
                 <div class="col-sm-6 d-flex flex-column justify-content-center">
-                    <h2>Mi casa, su casa</h2>
+                    <h2 class="robotoSlab font-weight-bold">Mi casa, su casa</h2>
                     <p><strong>Intineratur</strong> no te lleva a comer, te lleva a disfrutar tus antojos.
 <br><strong>Itineratur</strong> no te lleva por un café, te lleva a una plática amena.
 <br><strong>Itineratur</strong> no te lleva a explorar la ciudad, te lleva a revivir el pasado.
@@ -86,23 +96,56 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <div class="container position-relative categorias">
+            <h2 class="robotoSlab font-weight-light text-white mt-0 mb-3">Categorias</h2>
             <div class="row">
-                <div class="col-sm-6">
-                    
+                <div class="col-sm d-flex justify-content-center flex-column align-items-center">
+                    <div class="img-rounded">
+                        <img src="vendor/custom/img/diet.png" class="img-fluid img-icon">
+                    </div>
+                    <h5 class="text-center">Comida</h5>
                 </div>
-                <div class="col-sm-6"></div>
+                <div class="col-sm d-flex justify-content-center flex-column align-items-center">
+                    <div class="img-rounded">
+                        <img src="vendor/custom/img/hotel.png" class="img-fluid img-icon">
+                    </div>
+                    <h5 class="text-center">Hospedaje</h5>
+                </div>
+                <div class="col-sm d-flex justify-content-center flex-column align-items-center">
+                   <div class="img-rounded">
+                        <img src="vendor/custom/img/teotihuacan.png" class="img-fluid img-icon">
+                    </div>
+                    <h5 class="text-center">Lugares de Interés</h5>
+                </div>
+                <div class="col-sm d-flex justify-content-center flex-column align-items-center">
+                   <div class="img-rounded">
+                        <img src="vendor/custom/img/concert.png" class="img-fluid img-icon">
+                    </div>
+                    <h5 class="text-center">Actividades culturales</h5>
+                </div>
+                <div class="col-sm d-flex justify-content-center flex-column align-items-center">
+                   <div class="img-rounded">
+                        <img src="vendor/custom/img/surf.png" class="img-fluid img-icon">
+                    </div>
+                    <h5 class="text-center">Turismo Alternativo</h5>
+                </div>
+                <div class="col-sm d-flex justify-content-center flex-column align-items-center">
+                   <div class="img-rounded">
+                        <img src="vendor/custom/img/beer.png" class="img-fluid img-icon">
+                    </div>
+                    <h5 class="text-center">Centro Nocturno</h5>
+                </div>
             </div>
         </div>
+        <div class="after"></div>
     </section>
-          
+
     <footer>
-<div class="container">
-    
+<div class="container form">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h3 class="section-heading">Contacto</h3>
-                    <h4 class="section-subheading text-muted" style="color:white;">¿Quejas? ¿Sugerencias? Mandanos un correo, con gusto te atendemos</h4> </div>
+                    <h1 class="section-heading">Contacto</h1>
+                    <h4 class="section-subheading">¿Quejas? ¿Sugerencias? Mandanos un correo, con gusto te atendemos</h4> </div>
             </div>
             <div class="row">
                 <div class="col-lg-4">
@@ -143,9 +186,26 @@
         </div>
       
     </footer>
-          
+
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/custom/js/index.js"></script>
+    <script src="vendor/custom/js/contact_me.js"></script>
+   
+    
+    <script>
+        $(".triangle .before").css({
+            "border-top": $(window).width()/2 + "px solid #34B298",
+            "border-right":$(window).width() + "px solid transparent",
+        });
+        $(".triangle .after").css({
+            "border-bottom": ($(window).width()/3)*2 + "px solid #182039",
+            "border-right":$(window).width() + "px solid transparent",
+        });
+        $(".categorias .row .col-sm").hover(function(){
+            $(".triangle").css("background-image","url(vendor/custom/img/"+ ($(this).index() +1)+".jpg)");
+        })
+    </script>
           
   </body>
 </html>
