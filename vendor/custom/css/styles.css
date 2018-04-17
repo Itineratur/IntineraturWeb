@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,300,400,500,700,900');
+
+.roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.robotoSlab{
+    font-family: 'Roboto Slab', serif;
+}
+body {
+    padding-top: 54px;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (min-width: 992px) {
+    body {
+        padding-top: 56px;
+    }
+}
+header{
+    height: 600px;
+    background-image: url(http://placehold.it/1920x600&text=ImagenPerrona);
+}
+.back{
+    background-position: center;
+    background-size: cover;
+}
+header .content{
+    max-width: 60%;
+}
+header .container{
+    height: 100%;
+}
