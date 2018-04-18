@@ -31,7 +31,7 @@ header .container{
     background-color: #f0f0f0;
     background-size: auto 100%;
     background-repeat: no-repeat;
-    background-position: -100%;
+    background-position: 300px;
 }
 .triangle .container{
     padding: 0 0 60px;
@@ -73,8 +73,6 @@ header .container{
     background-size: cover;
     transform: rotate(-20deg);
 }
-
-
 .snip1515 {
   position: relative;
   float: left;
@@ -126,6 +124,7 @@ header .container{
 .snip1515 h3 {
   font-weight: 600;
   font-size: 1.3em;
+  color: rgb(52, 178, 152);
 }
 
 .snip1515 h4 {
@@ -165,4 +164,26 @@ header .container{
 .navbar .nav-item .nav-link{
     padding-left: 20px;
     padding-right: 20px;
+}
+.datos .row div:nth-child(1){
+    background-color: #182039;
+}
+.datos .row div:nth-child(2){
+    background-color: rgb(87, 111, 158);   
+}
+.datos .row div:nth-child(3){
+    background-color: rgb(102, 151, 185);
+}
+.datos .row div:nth-child(4){
+    background-color: rgb(52, 178, 152);
+}
+.datos .row div {
+    color: #fff;
+    padding: 40px 0;
+}
+footer{
+    background-color: #000; 
+}
+.img-bottom {
+    height: 100px;
 }
